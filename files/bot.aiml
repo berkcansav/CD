@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! Welcome to the language course assistant.</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template><srai>HELLO</srai></template>
+  </category>
+
+  <category>
+    <pattern>HEY</pattern>
+    <template><srai>HELLO</srai></template>
+  </category>
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template><srai>HELLO</srai></template>
+  </category>
+
+  <category>
+    <pattern>GOOD EVENING</pattern>
+    <template><srai>HELLO</srai></template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>I am a chatbot that helps you choose language courses.</template>
+  </category>
+
+  <category>
+    <pattern>WHO ARE YOU</pattern>
+    <template>I am a virtual assistant for language course consultation.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT COURSES DO YOU OFFER</pattern>
+    <template>
+      <random>
+        <li>We offer English, German and Spanish courses.</li>
+        <li>You can study English, German or Spanish.</li>
+        <li>Our school teaches English, German and Spanish.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER ENGLISH COURSE</pattern>
+    <template>Yes, we offer English courses for beginners and intermediate students.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER GERMAN COURSE</pattern>
+    <template>Yes, we offer German courses for students.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER SPANISH COURSE</pattern>
+    <template>Yes, we also offer Spanish courses.</template>
+  </category>
+
+  <category>
+    <pattern>I WANT TO LEARN *</pattern>
+    <template>Great! Learning <star/> is a good choice.</template>
+  </category>
+
+  <category>
+    <pattern>I WANT TO STUDY *</pattern>
+    <template>Nice! We can help you study <star/>.</template>
+  </category>
+
+  <category>
+    <pattern>* LANGUAGE *</pattern>
+    <template>We offer several language programs for students.</template>
+  </category>
+
+  <category>
+    <pattern>HOW MUCH IS THE COURSE</pattern>
+    <template>The language course costs 200 dollars per semester.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRICE</pattern>
+    <template><srai>HOW MUCH IS THE COURSE</srai></template>
+  </category>
+
+  <category>
+    <pattern>WHEN DO COURSES START</pattern>
+    <template>Courses start every month.</template>
+  </category>
+
+  <category>
+    <pattern>WHEN DOES THE COURSE START</pattern>
+    <template><srai>WHEN DO COURSES START</srai></template>
+  </category>
+
+  <category>
+    <pattern>WHERE ARE YOU LOCATED</pattern>
+    <template>Our language school is located in the city center.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS YOUR OFFICE</pattern>
+    <template><srai>WHERE ARE YOU LOCATED</srai></template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I REGISTER</pattern>
+    <template>You can register online or visit our office in person.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I REGISTER</pattern>
+    <template><srai>HOW CAN I REGISTER</srai></template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE ONLINE COURSES</pattern>
+    <template>Yes, we offer both online and offline classes.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE OFFLINE COURSES</pattern>
+    <template>Yes, we have classroom lessons at our office.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG IS THE COURSE</pattern>
+    <template>Each course lasts four months.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU GIVE CERTIFICATES</pattern>
+    <template>Yes, students receive a certificate after successful completion of the course.</template>
+  </category>
+
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You are welcome! I am happy to help.</template>
+  </category>
+
+  <category>
+    <pattern>THANKS</pattern>
+    <template><srai>THANK YOU</srai></template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Have a nice day.</template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template><srai>BYE</srai></template>
+  </category>
+
+</aiml>
