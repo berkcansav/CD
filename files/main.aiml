@@ -1,0 +1,126 @@
+<aiml version="2.0">
+
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      <random>
+        <li>Hello! Welcome to HotelHelperBot. How can I help you today?</li>
+        <li>Hi! I can help you with hotel booking information.</li>
+        <li>Hello! Ask me about rooms, prices, breakfast, or check-in time.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+      My name is HotelHelperBot. I help users with hotel room booking information.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WANT TO BOOK A ROOM</pattern>
+    <template>
+      Great. We have single rooms, double rooms, and suites. Which type would you like?
+    </template>
+  </category>
+
+  <category>
+    <pattern>ROOM TYPES</pattern>
+    <template>
+      We offer three room types: single room, double room, and suite.
+    </template>
+  </category>
+
+  <category>
+    <pattern>PRICE</pattern>
+    <template>
+      The single room costs 50 dollars per night, the double room costs 80 dollars, and the suite costs 120 dollars.
+    </template>
+  </category>
+
+  <category>
+    <pattern>BREAKFAST</pattern>
+    <template>
+      Yes, breakfast is included in all room types.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CHECK IN TIME</pattern>
+    <template>
+      Check-in starts at 2 PM.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CHECK OUT TIME</pattern>
+    <template>
+      Check-out is until 12 PM.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS THE HOTEL</pattern>
+    <template>
+      The hotel is located in the city center, near the main square and railway station.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANCELLATION POLICY</pattern>
+    <template>
+      You can cancel your reservation free of charge up to 24 hours before check-in.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELP</pattern>
+    <template>
+      You can ask me about room types, prices, breakfast, location, check-in, check-out, and cancellation policy.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WANT *</pattern>
+    <template>
+      You said you want <star/>. Please tell me if you need a single room, double room, or suite.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I BOOK *</pattern>
+    <template>
+      Yes, you can book <star/> if it is available. Please contact reception for confirmation.
+    </template>
+  </category>
+
+  <category>
+    <pattern>BOOKING</pattern>
+    <template>
+      <srai>I WANT TO BOOK A ROOM</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>
+      You are welcome. Have a nice day!
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      Goodbye! I hope to see you at our hotel soon.
+    </template>
+  </category>
+
+</aiml>
